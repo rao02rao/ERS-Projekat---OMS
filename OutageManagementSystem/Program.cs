@@ -5,7 +5,7 @@ namespace OutageManagementSystem
 {
     class Program
     {
-        static FaultRepository faultRepository = new FaultRepository();
+        static XmlFaultRepository faultRepository = new XmlFaultRepository();
         static ElementManager elementManager = new ElementManager();
         static FaultManager faultManager = new FaultManager(faultRepository, elementManager);
         static ReportGenerator reportGenerator = new ReportGenerator(faultRepository, elementManager);

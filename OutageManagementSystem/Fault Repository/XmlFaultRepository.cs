@@ -1,30 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.IO;
 
 namespace OutageManagementSystem
 {
-
-    public class FaultRepository
+    public class XmlFaultRepository : IFaultRepository
     {
         private List<FaultDescription> faults;
         private readonly string xmlFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Faults.xml");
 
-
-        public FaultRepository()
+        public XmlFaultRepository()
         {
             if (!File.Exists(xmlFilePath))
             {
-                // Kreira prazan XML dokument sa korenom "Faults" ako fajl ne postoji
                 new XDocument(new XElement("Faults")).Save(xmlFilePath);
             }
             LoadFaultsFromXml();
         }
-
 
         private void LoadFaultsFromXml()
         {
@@ -55,17 +49,16 @@ namespace OutageManagementSystem
             SaveFaultsToXml();
         }
 
-        public void RemoveFault(string faultId)  // Promenjen tip parametra sa int na string
+        public void RemoveFault(string faultId)
         {
             faults.RemoveAll(f => f.FaultId == faultId);
+            SaveFaultsToXml();
         }
 
         public FaultDescription GetFault(string faultId)
         {
-            // Prolazi kroz listu 'faults' i traži kvar sa zadatim 'faultId'
             return faults.Find(f => f.FaultId == faultId);
         }
-
 
         public List<FaultDescription> GetAllFaults()
         {
@@ -85,6 +78,4 @@ namespace OutageManagementSystem
             }
         }
     }
-
-
 }

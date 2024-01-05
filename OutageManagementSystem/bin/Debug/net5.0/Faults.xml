@@ -18,4 +18,13 @@
       </Action>
     </Actions>
   </FaultDescription>
+  <FaultDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FaultId>20240106000137_1</FaultId>
+    <TimeOfCreation>2024-01-06T00:01:37.3874688+01:00</TimeOfCreation>
+    <Status>Nepotvrđen</Status>
+    <ShortDescription>Kvar 3</ShortDescription>
+    <Description>Opis kvara 3</Description>
+    <ElementId>1</ElementId>
+    <Actions />
+  </FaultDescription>
 </Faults>

@@ -7,10 +7,10 @@ namespace OutageManagementSystem
 {
     public class FaultManager
     {
-        private FaultRepository faultRepository;
+        private XmlFaultRepository faultRepository;
         private ElementManager elementManager;
 
-        public FaultManager(FaultRepository repository, ElementManager elementManager)
+        public FaultManager(XmlFaultRepository repository, ElementManager elementManager)
         {
             faultRepository = repository;
             this.elementManager = elementManager;

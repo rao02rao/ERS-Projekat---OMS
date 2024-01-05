@@ -18,7 +18,7 @@ namespace OutageManagementSystem
             bool isRunning = true;
             while (isRunning)
             {
-                Console.WriteLine("Glavni meni:\n");
+                Console.WriteLine("\nGlavni meni:\n");
                 Console.WriteLine("1. Unesite novi kvar");
                 Console.WriteLine("2. Unesite novi električni element");
                 Console.WriteLine("3. Prikazite kvarove");

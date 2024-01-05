@@ -7,7 +7,12 @@
     <ShortDescription>Kvar 1</ShortDescription>
     <Description>Opis Kvara 1</Description>
     <ElementId>1</ElementId>
-    <Actions />
+    <Actions>
+      <Action>
+        <TimeOfAction>2023-12-13T00:00:00</TimeOfAction>
+        <Description>Opis akcije</Description>
+      </Action>
+    </Actions>
   </FaultDescription>
   <FaultDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <FaultId>20240105165704_1</FaultId>
@@ -24,6 +29,34 @@
       <Action>
         <TimeOfAction>2023-12-13T00:00:00</TimeOfAction>
         <Description>Opis akcije 2</Description>
+      </Action>
+    </Actions>
+  </FaultDescription>
+  <FaultDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FaultId>20240105202053_1</FaultId>
+    <TimeOfCreation>2024-01-05T20:20:53.7095587+01:00</TimeOfCreation>
+    <Status>Nepotvrđen</Status>
+    <ShortDescription>kvar </ShortDescription>
+    <Description>kfakgka</Description>
+    <ElementId>2</ElementId>
+    <Actions>
+      <Action>
+        <TimeOfAction>2023-12-21T00:00:00</TimeOfAction>
+        <Description>opisisis</Description>
+      </Action>
+    </Actions>
+  </FaultDescription>
+  <FaultDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FaultId>20240105203852_1</FaultId>
+    <TimeOfCreation>2024-01-05T20:38:52.022456+01:00</TimeOfCreation>
+    <Status>Nepotvrđen</Status>
+    <ShortDescription>Kvar</ShortDescription>
+    <Description>Opis kvara</Description>
+    <ElementId>1</ElementId>
+    <Actions>
+      <Action>
+        <TimeOfAction>2023-12-12T00:00:00</TimeOfAction>
+        <Description>Opis akcije</Description>
       </Action>
     </Actions>
   </FaultDescription>

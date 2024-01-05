@@ -5,7 +5,7 @@ namespace OutageManagementSystem
 {
     public class FileManager
     {
-        public void GenerateReport(string filePath, FaultRepository faultRepository)
+        public void GenerateReport(string filePath, XmlFaultRepository faultRepository)
         {
             var allFaults = faultRepository.GetAllFaults();
             using (StreamWriter sw = new StreamWriter(filePath))

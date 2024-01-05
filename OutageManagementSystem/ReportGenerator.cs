@@ -10,10 +10,10 @@ namespace OutageManagementSystem
 {
     public class ReportGenerator
     {
-        private FaultRepository faultRepository;
+        private XmlFaultRepository faultRepository;
         private ElementManager elementManager;  // Dodato za pristup podacima o elementima
 
-        public ReportGenerator(FaultRepository repository, ElementManager elementManager)
+        public ReportGenerator(XmlFaultRepository repository, ElementManager elementManager)
         {
             faultRepository = repository;
             this.elementManager = elementManager;

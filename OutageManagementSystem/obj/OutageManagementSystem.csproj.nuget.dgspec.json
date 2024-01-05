@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Korisnik\\Desktop\\Moj OMS\\OutageManagementSystem\\OutageManagementSystem.csproj": {}
+    "C:\\Users\\Korisnik\\Desktop\\Pokusaj 3\\OutageManagementSystem\\OutageManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Korisnik\\Desktop\\Moj OMS\\OutageManagementSystem\\OutageManagementSystem.csproj": {
+    "C:\\Users\\Korisnik\\Desktop\\Pokusaj 3\\OutageManagementSystem\\OutageManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\Moj OMS\\OutageManagementSystem\\OutageManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\Pokusaj 3\\OutageManagementSystem\\OutageManagementSystem.csproj",
         "projectName": "OutageManagementSystem",
-        "projectPath": "C:\\Users\\Korisnik\\Desktop\\Moj OMS\\OutageManagementSystem\\OutageManagementSystem.csproj",
+        "projectPath": "C:\\Users\\Korisnik\\Desktop\\Pokusaj 3\\OutageManagementSystem\\OutageManagementSystem.csproj",
         "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Desktop\\Moj OMS\\OutageManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\Korisnik\\Desktop\\Pokusaj 3\\OutageManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",

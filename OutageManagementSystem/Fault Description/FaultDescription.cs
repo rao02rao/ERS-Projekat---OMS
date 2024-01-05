@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Linq;
 using System.Xml.Serialization;
 using System.IO;
+using System.Linq;
 
 namespace OutageManagementSystem
 {
     public class FaultDescription
     {
+        // Javni setteri omogućavaju XML serijalizaciju/deserijalizaciju
         public string FaultId { get; set; }
         public DateTime TimeOfCreation { get; set; }
         public string Status { get; set; }
@@ -23,6 +24,7 @@ namespace OutageManagementSystem
         public FaultDescription()
         {
             // Parameterless konstruktor potreban za XML serijalizaciju
+            Actions = new List<Action>();
         }
 
         public FaultDescription(string shortDescription, string description, int elementId, string status = "Nepotvrđen")
@@ -76,7 +78,7 @@ namespace OutageManagementSystem
             if (Actions.Count > 0)
             {
                 stringBuilder.AppendLine("Actions:");
-                foreach (var action in Actions.OrderByDescending(a => a.TimeOfAction)) // Uverite se da je ovaj red ispravan
+                foreach (var action in Actions.OrderByDescending(a => a.TimeOfAction))
                 {
                     stringBuilder.AppendLine($"- Time: {action.TimeOfAction}, Description: {action.Description}");
                 }

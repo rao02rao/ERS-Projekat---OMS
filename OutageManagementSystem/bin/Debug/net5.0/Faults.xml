@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Faults>
+  <FaultDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FaultId>20240105233318_1</FaultId>
+    <TimeOfCreation>2024-01-05T23:33:18.3614526+01:00</TimeOfCreation>
+    <Status>Nepotvrđen</Status>
+    <ShortDescription>Kvar 1</ShortDescription>
+    <Description>Opis Kvara 1</Description>
+    <ElementId>1</ElementId>
+    <Actions>
+      <Action>
+        <TimeOfAction>2023-12-12T00:00:00</TimeOfAction>
+        <Description>Opis akcije za Kvar 1</Description>
+      </Action>
+      <Action>
+        <TimeOfAction>2022-12-12T00:00:00</TimeOfAction>
+        <Description>Opis akcije 2 za Kvar 1</Description>
+      </Action>
+    </Actions>
+  </FaultDescription>
+</Faults>

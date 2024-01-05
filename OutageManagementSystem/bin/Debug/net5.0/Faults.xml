@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Faults>
+  <FaultDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FaultId>20240105140642_1</FaultId>
+    <TimeOfCreation>2024-01-05T14:06:42.7029907+01:00</TimeOfCreation>
+    <Status>U popravci</Status>
+    <ShortDescription>Kvar 1</ShortDescription>
+    <Description>Opis Kvara 1</Description>
+    <ElementId>1</ElementId>
+    <Actions />
+  </FaultDescription>
+  <FaultDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FaultId>20240105165704_1</FaultId>
+    <TimeOfCreation>2024-01-05T16:57:04.6507512+01:00</TimeOfCreation>
+    <Status>Nepotvrđen</Status>
+    <ShortDescription>Kvar 2</ShortDescription>
+    <Description>Opis kvara 2</Description>
+    <ElementId>1</ElementId>
+    <Actions>
+      <Action>
+        <TimeOfAction>2023-12-12T00:00:00</TimeOfAction>
+        <Description>Opis akcije</Description>
+      </Action>
+      <Action>
+        <TimeOfAction>2023-12-13T00:00:00</TimeOfAction>
+        <Description>Opis akcije 2</Description>
+      </Action>
+    </Actions>
+  </FaultDescription>
+</Faults>

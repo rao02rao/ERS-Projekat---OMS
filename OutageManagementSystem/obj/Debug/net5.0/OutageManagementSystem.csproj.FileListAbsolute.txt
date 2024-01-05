@@ -24,3 +24,29 @@ C:\Users\Korisnik\Desktop\Moj OMS\OutageManagementSystem\bin\Debug\net5.0\XLPars
 C:\Users\Korisnik\Desktop\Moj OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.csproj.CopyComplete
 C:\Users\Korisnik\Desktop\Moj OMS\OutageManagementSystem\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 C:\Users\Korisnik\Desktop\Moj OMS\OutageManagementSystem\bin\Debug\net5.0\itextsharp.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\OutageManagementSystem.exe
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\OutageManagementSystem.deps.json
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\OutageManagementSystem.runtimeconfig.json
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\OutageManagementSystem.runtimeconfig.dev.json
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\OutageManagementSystem.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\ref\OutageManagementSystem.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\OutageManagementSystem.pdb
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\ClosedXML.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\ExcelNumberFormat.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\Irony.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\itextsharp.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\SixLabors.Fonts.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\System.IO.Packaging.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\XLParser.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\ref\OutageManagementSystem.dll
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.pdb
+C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.genruntimeconfig.cache

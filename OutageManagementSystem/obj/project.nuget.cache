@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xeDYKJZ1QNbXH//qYJoRix/QjXOj5DnQ8h1L2o1FX5ORngef7PohhIM3CgXk6UrhFDDhrQ84oW1IJ0R1nVpXLg==",
+  "dgSpecHash": "Gb4ril6pF3/7yqQZkhxmKBcsIBG00x5QkjqC1GYSjRdNvLHxU52RxB0fLA+VuNwkmi0s8JkFdTn0nsRK6sKRfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Korisnik\\Desktop\\Pokusaj 3\\OutageManagementSystem\\OutageManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\Korisnik\\Desktop\\folder\\ERS-Projekat---OMS\\OutageManagementSystem\\OutageManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Korisnik\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\closedxml\\0.102.1\\closedxml.0.102.1.nupkg.sha512",

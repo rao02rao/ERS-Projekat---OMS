@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace OutageManagementSystem
 {
-    public static class UserInputHelper
+    public class UserInputHelper : IUserInputHelper
     {
-        public static string PromptForReportFormat()
+        public string PromptForReportFormat()
         {
             while (true)
             {
@@ -25,8 +25,6 @@ namespace OutageManagementSystem
                 }
             }
         }
-
-        // Ovde možete dodati i druge metode za traženje unosa od korisnika
     }
 
 }

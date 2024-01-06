@@ -64,4 +64,18 @@
       </Action>
     </Actions>
   </FaultDescription>
+  <FaultDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FaultId>20240106041543_1</FaultId>
+    <TimeOfCreation>2024-01-06T04:15:43.3719511+01:00</TimeOfCreation>
+    <Status>Nepotvrđen</Status>
+    <ShortDescription>kvar 43</ShortDescription>
+    <Description>opis kvara 43</Description>
+    <ElementId>2</ElementId>
+    <Actions>
+      <Action>
+        <TimeOfAction>2021-12-12T00:00:00</TimeOfAction>
+        <Description>opis akcije</Description>
+      </Action>
+    </Actions>
+  </FaultDescription>
 </Faults>

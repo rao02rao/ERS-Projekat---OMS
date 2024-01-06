@@ -8,4 +8,20 @@
     <Longitude>1</Longitude>
     <VoltageLevel>srednji napon</VoltageLevel>
   </ElectricalElement>
+  <ElectricalElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ElementId>2</ElementId>
+    <Name>Transformator</Name>
+    <Type>Tip 2</Type>
+    <Latitude>2</Latitude>
+    <Longitude>32</Longitude>
+    <VoltageLevel>visoki napon</VoltageLevel>
+  </ElectricalElement>
+  <ElectricalElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ElementId>3</ElementId>
+    <Name>eww</Name>
+    <Type>ew</Type>
+    <Latitude>3</Latitude>
+    <Longitude>3</Longitude>
+    <VoltageLevel>srednji napon</VoltageLevel>
+  </ElectricalElement>
 </ElectricalElements>

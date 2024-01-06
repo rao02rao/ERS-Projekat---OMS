@@ -3,7 +3,7 @@
   <FaultDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <FaultId>20240105233318_1</FaultId>
     <TimeOfCreation>2024-01-05T23:33:18.3614526+01:00</TimeOfCreation>
-    <Status>Nepotvrđen</Status>
+    <Status>Zatvoreno</Status>
     <ShortDescription>Kvar 1</ShortDescription>
     <Description>Opis Kvara 1</Description>
     <ElementId>1</ElementId>
@@ -21,10 +21,47 @@
   <FaultDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <FaultId>20240106000137_1</FaultId>
     <TimeOfCreation>2024-01-06T00:01:37.3874688+01:00</TimeOfCreation>
-    <Status>Nepotvrđen</Status>
+    <Status>U popravci</Status>
     <ShortDescription>Kvar 3</ShortDescription>
     <Description>Opis kvara 3</Description>
     <ElementId>1</ElementId>
-    <Actions />
+    <Actions>
+      <Action>
+        <TimeOfAction>2023-12-12T00:00:00</TimeOfAction>
+        <Description>opis akcije</Description>
+      </Action>
+    </Actions>
+  </FaultDescription>
+  <FaultDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FaultId>20240106013206_1</FaultId>
+    <TimeOfCreation>2024-01-06T01:32:06.6207+01:00</TimeOfCreation>
+    <Status>Nepotvrđen</Status>
+    <ShortDescription>Kvar 4</ShortDescription>
+    <Description>Opis Kvara 4</Description>
+    <ElementId>1</ElementId>
+    <Actions>
+      <Action>
+        <TimeOfAction>2023-12-12T00:00:00</TimeOfAction>
+        <Description>Opis Akcije za Kvar 4</Description>
+      </Action>
+    </Actions>
+  </FaultDescription>
+  <FaultDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <FaultId>20240106031812_1</FaultId>
+    <TimeOfCreation>2024-01-06T03:18:12.4948902+01:00</TimeOfCreation>
+    <Status>Nepotvrđen</Status>
+    <ShortDescription>Kvar 34</ShortDescription>
+    <Description>Opis kvara</Description>
+    <ElementId>2</ElementId>
+    <Actions>
+      <Action>
+        <TimeOfAction>2023-12-12T00:00:00</TimeOfAction>
+        <Description>opis akcije</Description>
+      </Action>
+      <Action>
+        <TimeOfAction>2023-12-12T00:00:00</TimeOfAction>
+        <Description>Opis akcije kvara</Description>
+      </Action>
+    </Actions>
   </FaultDescription>
 </Faults>

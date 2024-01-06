@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using System.Collections.Generic; // Dodato za upotrebu List<T>
+using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 
@@ -14,6 +14,8 @@ namespace OutageManagementSystem
         private List<ElectricalElement> elements = new List<ElectricalElement>(); // Lista za skladištenje elemenata
         public static readonly string ElementsFilePath = Path.Combine(Directory.GetCurrentDirectory(), "ElectricalElements.csv");
         private readonly string xmlFilePath = "ElectricalElements.xml";
+        IUtility utility = new UtilityClass();
+
 
 
 
@@ -59,8 +61,8 @@ namespace OutageManagementSystem
             int elementId = PromptForElementId();
             string name = PromptForInput("Unesite ime elementa: ");
             string type = PromptForInput("Unesite tip elementa: ");
-            double latitude = UtilityClass.PromptForDouble("Unesite geografsku širinu (samo brojevi): ");
-            double longitude = UtilityClass.PromptForDouble("Unesite geografsku dužinu (samo brojevi): ");
+            double latitude = utility.PromptForDouble("Unesite geografsku širinu (samo brojevi): ");
+            double longitude = utility.PromptForDouble("Unesite geografsku dužinu (samo brojevi): ");
             string voltageLevel = PromptForVoltageLevel();
 
             AddElement(elementId, name, type, latitude, longitude, voltageLevel);

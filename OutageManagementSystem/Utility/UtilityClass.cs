@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace OutageManagementSystem
 {
-    class UtilityClass
+    public class UtilityClass : IUtility
     {
-
-        public static double PromptForDouble(string message)
+        public double PromptForDouble(string message)
         {
             double value;
             while (true)
@@ -23,4 +22,5 @@ namespace OutageManagementSystem
             }
         }
     }
+
 }

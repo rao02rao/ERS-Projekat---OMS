@@ -24,4 +24,12 @@
     <Longitude>3</Longitude>
     <VoltageLevel>srednji napon</VoltageLevel>
   </ElectricalElement>
+  <ElectricalElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ElementId>4</ElementId>
+    <Name>Serpa</Name>
+    <Type>Tip 3</Type>
+    <Latitude>32</Latitude>
+    <Longitude>32</Longitude>
+    <VoltageLevel>srednji napon</VoltageLevel>
+  </ElectricalElement>
 </ElectricalElements>

@@ -18,7 +18,7 @@ namespace ElectricalElementTests.ElectricalElementTests
 
         private IElectricalElement _element;
 
-    
+
         public ElectricalElement el1 = new ElectricalElement();
         public ElectricalElement el2 = new ElectricalElement();
         public ElectricalElement el3 = new ElectricalElement();
@@ -27,8 +27,8 @@ namespace ElectricalElementTests.ElectricalElementTests
         [SetUp]
         public void Setup()
         {
-           // Mock<IElectricalElement> elementDouble = new Mock<IElectricalElement>();
-           // _element= elementDouble.Object;
+            // Mock<IElectricalElement> elementDouble = new Mock<IElectricalElement>();
+            // _element= elementDouble.Object;
             _elementsDB.ElementsDB.Add(el1);
             _elementsDB.ElementsDB.Add(el2);
             _elementsDB.ElementsDB.Add(el3);
@@ -39,9 +39,9 @@ namespace ElectricalElementTests.ElectricalElementTests
         {
             if (_elementsDB.ElementsDB.Count != 0)
                 foreach (ElectricalElement el in _elementsDB.ElementsDB)
-            {
+                {
                     _elements.ElementsDB.Add(el);
-            }
+                }
             Assert.IsNotEmpty(_elements.ElementsDB);
         }
 
@@ -51,11 +51,11 @@ namespace ElectricalElementTests.ElectricalElementTests
         [TestCase(122)]
         public void GetElementNameByIdTrueTest(int elementId)
         {
-            ElectricalElement element = new ElectricalElement(elementId,"sa","sa",200.0,1000.0,"srednji nivo");
+            ElectricalElement element = new ElectricalElement(elementId, "sa", "sa", 200.0, 1000.0, "srednji nivo");
             _elements.ElementsDB.Add(element);
             foreach (ElectricalElement el in _elements.ElementsDB)
             {
-                if(el.ElementId == elementId)
+                if (el.ElementId == elementId)
                 {
                     string name = el.Name;
                     Assert.IsNotNull(name);
@@ -63,33 +63,30 @@ namespace ElectricalElementTests.ElectricalElementTests
             }
         }
 
-        //SaveElement
-        //[Test]
-        //[TestCase(_element)]
-        //[TestCase(el2)]
-        //[TestCase(new ElectricalElement())]
-        //public void SaveElementTest(ElectricalElement element)
-        //{
-        //    _elements.ElementsDB.Add(element);
-        //    foreach(ElectricalElement el in _elements.ElementsDB)
-        //    {
-        //        if(el.ElementId == element.ElementId)
-        //        {
-        //            Assert.IsNotNull(el);
-        //        }
-
-        //    }
-        //}
+        [Test]
+        public void SaveElementTest()
+        {
+            ElectricalElement element = new ElectricalElement();
+            _elements.ElementsDB.Add(element);
+            foreach (ElectricalElement el in _elements.ElementsDB)
+            {
+                if (el.ElementId == element.ElementId)
+                {
+                    Assert.IsNotNull(el);
+                }
+            }
+        }
+    
 
         [Test]
 
-        [TestCase (1)]
-        [TestCase (421)]
+        [TestCase(1)]
+        [TestCase(421)]
         public void GetElementByIdTrueTest(int elementId)
         {
             foreach (ElectricalElement el in _elements.ElementsDB)
             {
-                if(el.ElementId == elementId)
+                if (el.ElementId == elementId)
                 {
                     Assert.IsNotNull(el);
                 }
@@ -98,8 +95,8 @@ namespace ElectricalElementTests.ElectricalElementTests
 
         [Test]
 
-        [TestCase(1,"kompas","zvucni",200,400,"srednji nivo")]
-        [TestCase(122,"zica","zicana",2030,4300,"srednji nivo")]
+        [TestCase(1, "kompas", "zvucni", 200, 400, "srednji nivo")]
+        [TestCase(122, "zica", "zicana", 2030, 4300, "srednji nivo")]
         public void AddElementTrueTest(int elementId, string name, string type, double latitude, double longitude, string voltageLevel)
         {
             ElectricalElement element = new ElectricalElement(elementId, name, type, latitude, longitude, voltageLevel);

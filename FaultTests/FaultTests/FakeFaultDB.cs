@@ -1,4 +1,5 @@
-﻿using OutageManagementSystem;
+﻿using Irony.Parsing;
+using OutageManagementSystem;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,38 +8,59 @@ using System.Threading.Tasks;
 
 namespace FaultTests.FaultTests
 {
-    internal class FakeFaultDB : IFaultRepository
+    internal class FakeFaultDB //: IFaultRepository
     {
-        private List<IFaultDescription> _elements = new List<IFaultDescription>();
+        private List<FaultDescription> _faults = new List<FaultDescription>();
+
+        public List<FaultDescription> Faults { get => _faults; set => _faults = value; }
 
         public void AddFault(FaultDescription fault)
         {
-            throw new NotImplementedException();
-        }
-
-        public void AddFaultTest(FaultDescription fault)
-        {
-            throw new NotImplementedException();
+            Faults.Add(fault);
         }
 
         public List<FaultDescription> GetAllFaults()
         {
-            throw new NotImplementedException();
+            List<FaultDescription> fakeFaults = new List<FaultDescription>();
+            foreach (FaultDescription fault in Faults)
+            {
+                fakeFaults.Add(fault);
+            }
+            return fakeFaults;
         }
 
         public FaultDescription GetFault(string faultId)
         {
-            throw new NotImplementedException();
+            foreach (FaultDescription fault in Faults)
+            {
+                if(fault.FaultId == faultId)
+                {
+                    return fault;
+                }
+            }
+            return null;
         }
 
         public void RemoveFault(string faultId)
         {
-            throw new NotImplementedException();
+            foreach(FaultDescription fault in Faults)
+            {
+                if(fault.FaultId == faultId)
+                Faults.Remove(fault);
+            }
         }
 
         public void UpdateFault(FaultDescription updatedFault)
         {
-            throw new NotImplementedException();
+            foreach(FaultDescription f in Faults)
+            {
+                if(f.FaultId == updatedFault.FaultId)
+                {
+                    f.ShortDescription = updatedFault.ShortDescription;
+                    f.Description = updatedFault.Description;
+                    f.Status = updatedFault.Status;  
+                }
+            }
         }
     }
 }

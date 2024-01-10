@@ -50,3 +50,29 @@ C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\D
 C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\ref\OutageManagementSystem.dll
 C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.pdb
 C:\Users\Korisnik\Desktop\folder\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.genruntimeconfig.cache
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\OutageManagementSystem.exe
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\OutageManagementSystem.deps.json
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\OutageManagementSystem.runtimeconfig.json
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\OutageManagementSystem.runtimeconfig.dev.json
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\OutageManagementSystem.dll
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\OutageManagementSystem.pdb
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\ClosedXML.dll
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\ExcelNumberFormat.dll
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\Irony.dll
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\itextsharp.dll
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\SixLabors.Fonts.dll
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\System.IO.Packaging.dll
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\bin\Debug\net5.0\XLParser.dll
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.csproj.AssemblyReference.cache
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.AssemblyInfoInputs.cache
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.AssemblyInfo.cs
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.csproj.CoreCompileInputs.cache
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.csproj.CopyComplete
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.dll
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\refint\OutageManagementSystem.dll
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.pdb
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\OutageManagementSystem.genruntimeconfig.cache
+D:\Faks\III godina\ERS\ERS-Projekat---OMS\OutageManagementSystem\obj\Debug\net5.0\ref\OutageManagementSystem.dll

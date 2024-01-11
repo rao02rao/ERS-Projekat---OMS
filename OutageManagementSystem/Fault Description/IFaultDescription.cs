@@ -8,11 +8,11 @@ namespace OutageManagementSystem
     {
         string FaultId { get; }
         DateTime TimeOfCreation { get; }
-        string Status { get; }
-        string ShortDescription { get; }
-        string Description { get; }
-        int ElementId { get; }
-        List<Action> Actions { get; }
+        string Status { get; set; }
+        string ShortDescription { get; set;  }
+        string Description { get; set; }
+        int ElementId { get;  }
+        List<Action> Actions { get; set; }
         string ToXml();
     }
 }

@@ -24,14 +24,23 @@ namespace ReportTest.ReportTests
         [Test]
         public void GenerateReportTest()
         {
+            // Generisanje jedinstvenog timestamp-a za naziv fajla
+            string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+
+            // Proveravamo i prilagođavamo format za Excel izveštaje
+            string fileExtension = "pdf";
+
+            // Kreiranje putanje fajla u istom direktorijumu gde se nalazi aplikacija
+            string directoryPath = AppDomain.CurrentDomain.BaseDirectory;
+            string fileName = $"Report_{timestamp}.{fileExtension}";
+            string reportPath = Path.Combine(directoryPath, fileName);
+
             ElementManager el = new ElementManager();
-            //List<FaultDescription> faults = new List<FaultDescription>();
-            string filePath = "C:\\Users\\Djera\\Desktop\\V7 - Unit testing (2)\\MockTests\\izvestaj.pdf";
             Mock<IReportGenerator> reportMock = new Mock<IReportGenerator>();
-            reportMock.Setup(_report => _report.GenerateReport(filePath, faults));
-            PdfReportGenerator pdf= new PdfReportGenerator(el);
-            pdf.GenerateReport(filePath, faults); 
-            reportMock.Verify(_report => _report.GenerateReport(filePath, faults), Times.Once);
+            reportMock.Setup(_report => _report.GenerateReport(reportPath, faults));
+            Helper helper = new Helper(reportMock.Object);
+            helper.GenerateReport(reportPath, faults);
+            reportMock.Verify(_report => _report.GenerateReport(reportPath, faults), Times.Once);
         }
 
     }
